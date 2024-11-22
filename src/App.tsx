@@ -1,7 +1,7 @@
-import Gpt from '@/features/antv/Gpt-vis'
-import GptVisExtend from '@/features/antv/Gpt-vis-extend'
-import GptVisCode from '@/features/antv/Gpt-vis-code'
-import GptVisStream from '@/features/antv/Gpt-vis-stream'
+import Gpt from '@/components/antv/Gpt-vis'
+import GptVisExtend from '@/components/antv/Gpt-vis-extend'
+import GptVisCode from '@/components/antv/Gpt-vis-code'
+import GptVisStream from '@/components/antv/Gpt-vis-stream'
 
 function App() {
   return (
