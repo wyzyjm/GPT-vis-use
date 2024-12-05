@@ -11,7 +11,15 @@ my data2
 `
 
 const customRenderers = {
-  'my-ui': ({ children }: { children?: React.ReactNode }) => <div>{children}</div>,
+  'my-ui': ({ children }: { children?: React.ReactNode }) => (
+    <div
+      style={{
+        background: 'lightblue'
+      }}
+    >
+      {children}
+    </div>
+  ),
   'my-ui2': ({ children }: { children?: React.ReactNode }) => <div>my-ui2 {children}</div>
 }
 const components = {
