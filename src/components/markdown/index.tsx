@@ -1,7 +1,16 @@
-import React from 'react'
+import Markdown from 'react-markdown'
+import markdownProps from './config'
 
-const Markdown = () => {
-  return <div></div>
+interface IProps {
+  content: string
+}
+const MarkdownComponent = ({ content }: IProps) => {
+  return (
+    <Markdown
+      {...markdownProps}
+      children={content}
+    />
+  )
 }
 
-export default Markdown
+export default MarkdownComponent

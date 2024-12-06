@@ -1,8 +1,11 @@
 // import Gpt from '@/components/antv/Gpt-vis'
-import GptVisExtend from '@/components/antv/Gpt-vis-extend'
+// import GptVisExtend from '@/components/antv/Gpt-vis-extend'
 // import GptVisCode from '@/components/antv/Gpt-vis-code'
 // import GptVisStream from '@/components/antv/Gpt-vis-stream'
 // import Upload from '@/components/antd/upload'
+
+import Markdown from '@/components/markdown'
+import { markdownContent } from '@/mock/markdown'
 function App() {
   return (
     <div>
@@ -10,7 +13,7 @@ function App() {
       {/* <Gpt /> */}
 
       {/* 扩展 */}
-      <GptVisExtend />
+      {/* <GptVisExtend /> */}
 
       {/* 自定义 代码code */}
       {/* <GptVisCode /> */}
@@ -19,6 +22,8 @@ function App() {
       {/* <GptVisStream /> */}
 
       {/* <Upload /> */}
+
+      <Markdown content={markdownContent} />
     </div>
   )
 }
