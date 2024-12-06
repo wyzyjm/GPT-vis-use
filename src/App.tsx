@@ -4,11 +4,13 @@
 // import GptVisStream from '@/components/antv/Gpt-vis-stream'
 // import Upload from '@/components/antd/upload'
 
+// Markdown
 import Markdown from '@/components/markdown'
 import { markdownContent } from '@/mock/markdown'
+
 function App() {
   return (
-    <div>
+    <div className='container mx-auto pt-2 p-4'>
       {/* 默认 */}
       {/* <Gpt /> */}
 
